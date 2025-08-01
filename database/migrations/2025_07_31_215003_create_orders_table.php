@@ -20,7 +20,7 @@ return new class extends Migration
             $table->integer('grand_total');
             $table->enum('status', ['pending','settlement','cooked']);
             $table->integer('table_number');
-            $table->enum('payment_method', ['cash','qris']);
+            $table->enum('payment_method', ['cash']);
             $table->text('note')->nullable();
             $table->softDeletes();
             $table->timestamps();

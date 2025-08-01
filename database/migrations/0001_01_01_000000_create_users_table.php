@@ -14,8 +14,8 @@ return new class extends Migration
             $table->id();
             $table->string('username')->unique()->fillable();
             $table->string('password')->nullable();
-            $table->string('email')->unique()->fillable();
-            $table->string('fullname');
+            $table->string('email')->unique()->nullable();
+            $table->string('fullname')->nullable();
             $table->string('phone')->nullable();
             $table->unsignedBiginteger('role_id');
             $table->softDeletes();

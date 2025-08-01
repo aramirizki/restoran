@@ -17,7 +17,7 @@ return new class extends Migration
             $table->text('description')->nullable();
             $table->integer('price');
             $table->unsignedBigInteger('category_id');
-            $table->string('image')->nullable();
+            $table->string('img')->nullable();
             $table->boolean('is_available')->default(true);
             $table->timestamps();
             $table->softDeletes();
