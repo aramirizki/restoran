@@ -41,7 +41,7 @@
                         <div class="col-md-12 col-lg-4">
                             <div class="form-item w-100">
                                 <label class="form-label my-3">Nomor Meja<sup>*</sup></label>
-                                <input type="text" class="form-control" value="{{ $tableNumber ?? 'Tidak ada nomor meja' }}" disabled>
+                                <input type="text" class="form-control" value="{{ $tableNumber ?? 1 }}" disabled>
                             </div>
                         </div>
                     </div>

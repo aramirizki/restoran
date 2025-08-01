@@ -18,8 +18,8 @@ return new class extends Migration
             $table->integer('subtotal');
             $table->integer('tax');
             $table->integer('grand_total');
-            $table->enum('status', ['pending','settlement','cooked']);
-            $table->integer('table_number');
+            // $table->enum('status', ['pending','settlement','cooked']);
+            // $table->integer('table_number')->default(1);
             $table->enum('payment_method', ['cash']);
             $table->text('note')->nullable();
             $table->softDeletes();

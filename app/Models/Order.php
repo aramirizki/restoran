@@ -16,8 +16,8 @@ class Order extends Model
         'subtotal',
         'tax',
         'grand_total',
-        'status',
-        'table_number',
+        // 'status',
+        // 'table_number',
         'payment_method',
         'note','created_at', 'updated_at'
     ];
