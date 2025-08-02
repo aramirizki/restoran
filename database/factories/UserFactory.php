@@ -29,7 +29,7 @@ class UserFactory extends Factory
             'fullname' => fake()->name(),
             'email' => fake()->unique()->safeEmail(),
             'phone' => fake()->phoneNumber(),
-            'role_id' => fake()->numberBetween(1, 3),
+            // 'role_id' => fake()->numberBetween(1, 3),
         ];
     }
 

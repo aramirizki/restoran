@@ -17,11 +17,11 @@ return new class extends Migration
             $table->string('email')->unique()->nullable();
             $table->string('fullname')->nullable();
             $table->string('phone')->nullable();
-            $table->unsignedBiginteger('role_id');
+            // $table->unsignedBiginteger('role_id');
             $table->softDeletes();
             $table->timestamps();
 
-            $table->foreign('role_id')->references('id')->on('roles');
+            // $table->foreign('role_id')->references('id')->on('roles');
         });
 
 

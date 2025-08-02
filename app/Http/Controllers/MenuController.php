@@ -127,7 +127,7 @@ class MenuController extends Controller
     public function store(Request $request)
     {
         $cart = session::get('cart');
-        $tableNumber = Session::get('tableNumber');
+        // $tableNumber = Session::get('tableNumber');
 
         if (empty($cart)) {
             return redirect()->route('cart')->with('error', 'Keranjang Anda kosong.');
@@ -160,7 +160,7 @@ class MenuController extends Controller
             'username' => $request->username ?? $request->phone,
             'fullname' => $request->fullname, 
             'phone' => $request->phone,
-            'role_id' => 4
+            // 'role_id' => 4
             ]);
 
         $order = Order::create([
@@ -170,7 +170,7 @@ class MenuController extends Controller
             'tax' => $totalAmount * 0.1,
             'grand_total' => $totalAmount + ($totalAmount * 0.1),
             'status' => 'pending',
-            'table_number' => $tableNumber,
+            // 'table_number' => $tableNumber,
             'payment_method' => $request->payment_method === 'tunai' ? 'cash' : $request->payment_method,
             'notes' => $request->notes,
         ]);

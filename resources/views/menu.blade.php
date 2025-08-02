@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Menu')
+<!-- @section('title', 'Menu') -->
 
 @section('content')
 <div class="container-fluid page-header py-5">

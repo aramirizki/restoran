@@ -19,17 +19,17 @@ class User extends Authenticatable
         'fullname',
         'email',
         'phone',
-        'role_id',
+        // 'role_id',
         'created_at',
         'updated_at',
     ];
 
     protected $dates =['deleted_at'];
 
-    public function role()
-    {
-        return $this->belongsTo(Role::class);
-    }
+    // public function role()
+    // {
+    //     return $this->belongsTo(Role::class);
+    // }
 
     public function orders()
     {

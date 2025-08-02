@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Checkout')
+<!-- @section('title', 'Checkout') -->
 
 @section('content')
 
@@ -41,7 +41,7 @@
                         <div class="col-md-12 col-lg-4">
                             <div class="form-item w-100">
                                 <label class="form-label my-3">Nomor Meja<sup>*</sup></label>
-                                <input type="text" class="form-control" value="{{ $tableNumber ?? 1 }}" disabled>
+                                <input type="text" class="form-control" value=" 1 " disabled>
                             </div>
                         </div>
                     </div>
@@ -150,7 +150,8 @@
     </div>
 </div>
 
-{{-- <script src="https://app.sandbox.midtrans.com/snap/snap.js" data-client-key="{{ config('midtrans.client_key') }}"></script>
+<!-- {{-- <script src="https://app.sandbox.midtrans.com/snap/snap.js" data-client-key="{{ config('midtrans.client_key') }}"></script>
+  -->
 <script>
     document.getElementById('pay-button').addEventListener('click', function () {
         let form = document.getElementById('checkout-form');
@@ -195,7 +196,7 @@
 </script> --}}
 
 
-<script src="https://app.sandbox.midtrans.com/snap/snap.js" data-client-key="{{ env('MIDTRANS_CLIENT_KEY') }}"></script>
+<!-- <script src="https://app.sandbox.midtrans.com/snap/snap.js" data-client-key="{{ env('MIDTRANS_CLIENT_KEY') }}"></script> -->
 <script>
     document.addEventListener("DOMContentLoaded", function () {
         const payButton = document.getElementById("pay-button");
