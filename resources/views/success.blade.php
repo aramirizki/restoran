@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-<!-- @section('title', 'Menu') -->
+@section('title', 'Success')
 
 @section('content')
 

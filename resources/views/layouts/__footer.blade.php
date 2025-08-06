@@ -10,10 +10,10 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="d-flex justify-content-end pt-3">
-                        <a class="btn  btn-outline-secondary me-2 btn-md-square rounded-circle" href="https://www.instagram.com/codepolitan/"><i class="fab fa-instagram"></i></a>
-                        <a class="btn  btn-outline-secondary me-2 btn-md-square rounded-circle" href="https://tiktok.com/@codepolitan.com"><i class="fab fa-tiktok"></i></a>
-                        <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href="https://www.youtube.com/@codepolitan"><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-outline-secondary btn-md-square rounded-circle" href="https://id.linkedin.com/company/codepolitan"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn  btn-outline-secondary me-2 btn-md-square rounded-circle" href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                        <a class="btn  btn-outline-secondary me-2 btn-md-square rounded-circle" href="https://tiktok.com"><i class="fab fa-tiktok"></i></a>
+                        <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-secondary btn-md-square rounded-circle" href="https://id.linkedin.com"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
             </div>
@@ -29,7 +29,7 @@
                 <div class="footer-item">
                     <h4 class="text-light mb-3">Hubungi Kami</h4>
                     <p>Alamat: Jl. Sangkuriang No.8, Padasuka, Kec. Cimahi Tengah, Kota Cimahi, Jawa Barat 40526</p>
-                    <p>Email: info@codepolitan.com</p>
+                    <p>Email: info@pabloeatery.com</p>
                     <p>Telp: 0899-9488-990</p>
                 </div>
             </div>

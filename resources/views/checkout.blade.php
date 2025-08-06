@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-<!-- @section('title', 'Checkout') -->
+@section('title', 'Checkout')
 
 @section('content')
 
