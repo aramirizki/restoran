@@ -1,5 +1,1 @@
-# Instal dependensi PHP
-composer install
 
-# Instal dependensi Node.js
-npm install
